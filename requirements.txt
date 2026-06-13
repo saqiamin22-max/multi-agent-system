@@ -1,0 +1,31 @@
+# Environment
+python-dotenv>=1.0.1
+
+# LangChain ecosystem (compatible versions)
+langchain>=0.2.10
+langchain-core>=0.2.25
+langchain-community>=0.2.10
+
+# Mistral integration
+langchain-mistralai>=0.1.8
+
+# Multi-agent orchestration (better than classic agents)
+langgraph>=0.1.19
+
+# Tavily search tool
+tavily-python>=0.3.3
+
+# Web scraping (BeautifulSoup)
+beautifulsoup4>=4.12.3
+requests>=2.32.3
+lxml>=5.2.2
+
+# Utilities
+pydantic>=2.7.4
+typing-extensions>=4.12.2
+rich>=13.7.1
+
+# Async support (important)
+aiohttp>=3.9.5
+streamlit~=1.56.0
+tavily~=1.1.0
