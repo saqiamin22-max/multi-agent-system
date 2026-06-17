@@ -1,11 +1,11 @@
 # 🔬 ResearchMind: Autonomous Sequential Multi-Agent Research Engine
 
-ResearchMind aik advanced AI-powered content research aur analysis application hai jise **LangChain Expression Language (LCEL)**, **Mistral AI (`mistral-large-2512`)**, aur **Streamlit** ke saath design kiya gaya hai. 
+ResearchMind is an advanced AI-powered content research and analysis application built using **LangChain Expression Language (LCEL)**, **Mistral AI (`mistral-large-2512`)**, and **Streamlit**. 
 
-Yeh system four specialized agents aur chains ko aik linear pipeline (Sequential Hand-off framework) me connect karta hai jo raw user queries se lekar structured, verified research reports generate karne ka kaam automate karta hai.
+The system connects four specialized agents and chains into a linear pipeline (Sequential Hand-off framework) that automates the entire process—from processing raw user queries to generating structured, verified research reports.
 
 ---
 
 ## 🏗️ System Architecture & Agent Workflow
 
-Application ka multi-agent architecture decoupled design principles par chalta hai, jahan har stage ka output agle stage ke liye context banta hai:
+The application’s multi-agent architecture operates on decoupled design principles, where the output of each stage serves as the direct operational context for the next stage:
